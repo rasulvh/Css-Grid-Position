@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to bottom right, rgb(253,192,62), rgb(253,57,61));
+}
+
+#card {
+    height: 100vh;
+}
+
+#card .container {
+    width: 60.93%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#card .container .card {
+    height: 350px;
+    width: 753px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    position: relative;
+    border-radius: 15px;
+    box-shadow: rgb(0 0 0 / 25%) 0px 54px 55px, rgb(0 0 0 / 12%) 0px -12px 30px, rgb(0 0 0 / 12%) 0px 4px 6px, rgb(0 0 0 / 17%) 0px 12px 13px, rgb(0 0 0 / 9%) 0px -3px 5px;
+}
+
+#card .container .card .img-area {
+    height: 225px;
+    width: 225px;
+    background-color: white;
+    position: absolute;
+    left: -40px;
+    box-shadow: rgb(0 0 0 / 25%) 0px 54px 55px, rgb(0 0 0 / 12%) 0px -12px 30px, rgb(0 0 0 / 12%) 0px 4px 6px, rgb(0 0 0 / 17%) 0px 12px 13px, rgb(0 0 0 / 9%) 0px -3px 5px;
+    border-radius: 15px;
+    background-image: linear-gradient(to bottom right, rgb(254,122,58), #fc4639 );
+}
+
+#card .container .card .content{
+    position: absolute;
+    width: 400px;
+    left: 215px;
+}
+
+#card .container .card .content span{
+    margin-bottom: 25px;
+    line-height: 40px;
+}
+
+#card .container .card .content h1{
+    line-height: 40px;
+}
+
+#card .container .card .content a{
+    line-height: 90px;
+    text-decoration: none;
+    background-image: linear-gradient(135deg, rgb(254,122,58), #fc4639 );
+    padding: 15px;
+    border-radius: 25px;color: white;
+    font-weight: 600;
+}
+
+#card .container .card .right-dottes .dot-1{
+    height: 7px;
+    width: 7px;
+    border-radius: 100%;
+    background-color: rgb(205,209,198);
+}
+
+#card .container .card .right-dottes{
+    position: absolute;
+    left: 96%;
+}
+
+#card .container .card .right-dottes .dot-2{
+    height: 30px;
+    width: 7px;
+    border-radius: 20%;
+    margin-top: 5px;
+    background-color: rgb(255,61,62);
+    margin-bottom: 5px;
+}
+
+#card .container .card .right-dottes .dot-3{
+    height: 7px;
+    width: 7px;
+    border-radius: 100%;
+    background-color: rgb(205,209,198);
+}
+
+
+
